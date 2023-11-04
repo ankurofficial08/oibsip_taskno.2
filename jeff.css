@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.header{
+    padding: 1rem;
+    margin: 4rem 0px;
+    text-align: center;
+
+}
+
+.com{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.com > img{
+    margin: 2px;
+    width: 150px;
+}
+
+.header > .title{
+    margin-bottom: 0rem;
+    font-size: 50px;
+
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1.4fr;
+    max-width: 100rem;
+    margin: 0px auto;
+    background: black;
+    color: white;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tribute img{
+    max-width: 100%;
+}
+.biography{
+    background-image: url('biologo.png');
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+.timeline{
+    background-image: url('timelogo.jpg');
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+.bio{
+    
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+    margin-right: 100px;
+
+}
+
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+
+
+}
+
+.bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.bio > hr{
+    margin-top: 2rem;
+}
+
+.bio > h4{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bio{
+    
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+    margin-right: 100px;
+
+}
+
+.bio1 > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+    margin: 10px;
+    margin-left: 100px;
+    padding-top: 50px;
+
+
+}
+
+.bio1 > pre{
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color:white;
+}
+
+.bio1 > hr{
+    margin-top: 2rem;
+}
+
+.bio1 > h4{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    padding-bottom: 20px;
+}
